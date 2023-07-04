@@ -14,5 +14,8 @@ public class ex2 {
             if(intArray[i]%3==0) {
               System.out.println(intArray[i]);
             }
+            else {
+                continue;
+            }
     }
 }
