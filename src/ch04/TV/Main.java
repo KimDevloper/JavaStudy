@@ -7,7 +7,7 @@ public class Main {
         TV t3 = new TV("삼성", 2020, 65);
 
        t1.show();
-        t2.show();
-        t3.show();
+       t2.show();
+       t3.show();
     }
 }
