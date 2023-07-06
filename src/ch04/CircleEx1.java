@@ -1,13 +1,13 @@
 package ch04;
 
-public class Circle {
+public class CircleEx1 {
     int radius;
     String name;
-    public Circle() {
+    public CircleEx1() {
         radius = 1;
         name = "";
     }
-    public Circle(int r, String n) {
+    public CircleEx1(int r, String n) {
         radius = r;
         name = n;
     }
@@ -15,11 +15,11 @@ public class Circle {
         return 3.14 *radius *radius;
     }
     public static void main(String[] args)  {
-        Circle pizza = new Circle(10, "도넛피자");
+        CircleEx1 pizza = new CircleEx1(10, "도넛피자");
 
         double area = pizza.getArea();
         System.out.println(pizza.name + "의 면적은" + area);
-        Circle donut = new Circle();
+        CircleEx1 donut = new CircleEx1();
         area = donut.getArea();
         System.out.println(donut.name + "의 면적은" + area);
 
