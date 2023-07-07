@@ -1,4 +1,4 @@
-package ch04;
+package ch04.MoneyBox;
 
 public class MoneyBox {
     int money;

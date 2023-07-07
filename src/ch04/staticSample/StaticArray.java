@@ -1,4 +1,6 @@
-package ch04.staticSample.StaticSm;
+package ch04.staticSample;
+
+import ch04.staticSample.FindString;
 
 import java.util.Scanner;
 
