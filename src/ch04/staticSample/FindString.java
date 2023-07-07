@@ -1,4 +1,4 @@
-package ch04.staticSample.StaticSm;
+package ch04.staticSample;
 
 public class FindString {
     public static int index;
