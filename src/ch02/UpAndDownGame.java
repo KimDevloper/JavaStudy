@@ -1,3 +1,5 @@
+package ch02;
+
 import java.util.Scanner; //20213232 검퓨터공학과 김대원
 
 public class UpAndDownGame {
