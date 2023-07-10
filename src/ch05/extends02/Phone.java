@@ -7,9 +7,9 @@ class Phone {
         this.n2 = n2;
     }
     public void calling() {
-        System.out.println(n1 +"에게 전화를 걸었습니다.");
+        System.out.println(this.n1 +"에게 전화를 걸었습니다.");
     }
     public void called() {
-        System.out.println(n2 +"로부터" + n1 + "이 전화를 받습니다.");
+        System.out.println(this.n2 +"로부터" + this.n1 + "이 전화를 받습니다.");
     };
 }
